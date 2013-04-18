@@ -22,7 +22,7 @@
 static float f(float x,float min,float max,float x1,float x2,BOOL up)
 {
     float y;
-    float y1=up?min:max;
+    float y1=up?min:max;//thtfyhr
     float y2=up?max:min;
     if (x<=x1) {
         y=y1;
